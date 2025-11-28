@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall Decor</title>
+    <link rel="stylesheet" href="Walldecor.css">
+</head>
+<body>
+
+    <div class="header">
+        <h2 class="title">Wall Decor</h2>
+
+        <div class="nav-links">
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Offer.html">Offers</a>
+
+            <a href="Wishlist.html" class="wishlist-icon" style="position:relative; display:inline-block;">
+                        <img src="wishlist.png" width="22">
+                        <span id="wishlistBadge" class="wishlist-badge" style="
+                            background:red;
+                            color:white;
+                            padding:2px 6px;
+                            border-radius:50%;
+                            font-size:12px;
+                            position:absolute;
+                            top:-8px;
+                            right:-10px;
+                            display:none;">0</span>
+                    </a>
+            <a href="Cart.html" class="cart-icon" style="position:relative; display:inline-block;">
+                        <img src="cart.png" width="25">
+                        <span id="cartBadge" class="cart-badge" style="
+                        background:red;
+                        color:white;
+                        padding:2px 6px;
+                        border-radius:50%;
+                        font-size:12px;
+                        position:absolute;
+                        top:-8px;
+                        right:-10px;">0</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="pdp-container">
+        <div class="pdp-image-box">
+            <img src="wall1.jpg" alt="scented pretty candles" class="main-img">
+        </div>
+
+        <div class="pdp-details">
+            <h3>Wall decor</h3>
+            <p class="price">₹2100</p>
+
+            <p class="desc">
+                Modern wall decor painting that enhances your room with elegance and warmth.
+            </p>
+            <div class="thumb-box">
+                
+            </div>
+
+            <div class="btn-group">
+                <button class="add-cart" onclick="addToCart()">Add to Cart</button>
+                <button class="wishlist" onclick="addToWishlist()">♡ Wishlist</button>
+            </div>
+        </div>
+    </div>
+
+<script src="Walldecor.js"></script>
+</body>
+</html>
