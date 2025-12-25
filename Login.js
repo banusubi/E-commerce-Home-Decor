@@ -64,10 +64,10 @@ function login() {
         alert("✅ Login Successful!");
 
         // store login status
-        sessionStorage.setItem("loggedIn", "true");
-        sessionStorage.setItem("username", savedEmail);
+        localStorage.setItem("loggedIn", "true");
+        localStorage.setItem("username", savedEmail);
 
-        window.location.href = "Home.html";
+        window.location.href = "index.html";
     } 
     else {
         alert("❌ Incorrect Email or Password");
